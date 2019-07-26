@@ -1,0 +1,42 @@
+body{
+  background-color:white;
+  font-family: 'Raleway', sans-serif;
+  line-height: 22px;  
+ } 
+input{
+  border-radius: 10px;
+}
+
+ #root{
+   background-color: #EBDCD5;
+   width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 50px;
+   border-radius: 10px;
+ }
+
+ #mensaje{
+   height: 50px;
+ }
+
+.boton{
+  padding: 10px; 
+  border-radius: 10px;
+  background-color: #CE6571;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  width: 100px;;
+} 
+button:hover { 
+  background-color: gray;
+}
+
+input{
+  padding: 8px;
+}
+p{
+  text-align: justify;
+}

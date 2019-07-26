@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root">
+    
+      <h1>Cifrado César</h1>
+      <p>Es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes
+        secretas a sus generales en los campos de batalla. </p>
+      <h4>Paso 1: Selecciona el desplazamiento para cifrar o descrifrar tu mensaje. </h4>
+      <input id="offset" type="number" min="1" placeholder="1">
+    
+      <h4>Paso 2: Inserta la palabra que quieres cifrar o descifrar.</h4>
+      <input id="mensaje" type="text" placeholder="Tu mensaje">
+      <h4>Paso 3: Click en el botón cifrar o descrifrar para ver el resultado.</h4>
+      <button id="btn-cifrar" class="boton">Cifrar</button> <button id="btn-descifrar" class="boton">Descifrar</button> <br>
+    
+      <h4>El resultado es: <span id="imprimir"></span></h4>
+    
+    
+    </div>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+    </body>
+</html>
